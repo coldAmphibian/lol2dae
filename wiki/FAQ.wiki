@@ -28,9 +28,6 @@
 To convert, NVIDIA provides [https://developer.nvidia.com/nvidia-texture-tools-adobe-photoshop NVIDIA Texture Tools for Adobe Photoshop] for free to open DDS files in Photoshop. There are many applications and picture viewers (eg. [http://www.xnview.com XnView]) that can convert DDS files also.
 
 ==Q. Is rigging or animation conversion supported?==
-*A.* Not right now no, however this is certainly a milestone which will hopefully be reached in future versions of lol2dae.
-
-==Q. Is rigging or animation conversion supported?==
 *A.* Yes, lol2dae currently contains the functionality to output fully rigged and weighted models. Support for animation is certainly a milestone which will hopefully be reached in future versions of lol2dae.
 
 ==Q. Will lol2dae convert newer models?==
