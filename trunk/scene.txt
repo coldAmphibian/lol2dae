@@ -1,0 +1,22 @@
+	<library_visual_scenes>
+		<visual_scene id="DefaultScene">
+			<node id="Model" name="Model">
+				<translate>0 0 0</translate>
+				<rotate>0 0 1 0</rotate>
+				<rotate>0 1 0 0</rotate>
+				<rotate>1 0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry url="#Mesh">
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="DefaultMaterial" target="#DefaultMaterial"/>
+						</technique_common>
+					</bind_material>
+				</instance_geometry>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#DefaultScene"/>
+	</scene>
+</COLLADA>
