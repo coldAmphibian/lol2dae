@@ -17,13 +17,13 @@
 *A.* Most likely yes, COLLADA is a publicly available and ubiquitous format supported by many 3D applications.
 
 ==Q. I can't find any League of Legends models on my computer, where are they located?==
-*A.* They are stored in Riot Archive Files (RAF) with a .raf filename extension. You require an application like [https://sites.google.com/site/siuupdates/ Skin Installer Ultimate] with the capability to extract models with a.skn filename extension from these archives located in your League of Legends installation folder before you can convert them with lol2dae.
+*A.* They are stored in Riot Archive Files (RAF) with a .raf filename extension. You require an application like [https://sourceforge.net/projects/rafextractor/ RAFExtractor] with the capability to extract models with a.skn filename extension from these archives located in your League of Legends installation folder before you can convert them with lol2dae.
 
 ==Q. What platforms are supported?==
 *A.* Right now only Windows is supported.
 
 ==Q. My model has no texture, how do I fix it?==
-*A.* Textures are stored alongside the .skn file in the DirectDraw Surface (DDS) format. You can extract textures using an application like [https://sites.google.com/site/siuupdates/ Skin Installer Ultimate]. Some 3D applications such as Maya natively support the DDS format, others will require a plug-in or conversion to another format.
+*A.* Textures are stored alongside the .skn file in the DirectDraw Surface (DDS) format. You can extract textures using an application like [https://sourceforge.net/projects/rafextractor/ RAFExtractor]. Some 3D applications such as Maya natively support the DDS format, others will require a plug-in or conversion to another format.
 
 To convert, NVIDIA provides [https://developer.nvidia.com/nvidia-texture-tools-adobe-photoshop NVIDIA Texture Tools for Adobe Photoshop] for free to open DDS files in Photoshop. There are many applications and picture viewers (eg. [http://www.xnview.com XnView]) that can convert DDS files also.
 
